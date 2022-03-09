@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31829.152
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quadrangles", "Quadrangles\Quadrangles.csproj", "{8722E684-9933-4F4B-8F3C-0D7F05F4B61D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuadranglesLibrary", "QuadranglesLibrary\QuadranglesLibrary.csproj", "{10947B81-7232-4F85-9F19-F73AA6252612}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8722E684-9933-4F4B-8F3C-0D7F05F4B61D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8722E684-9933-4F4B-8F3C-0D7F05F4B61D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8722E684-9933-4F4B-8F3C-0D7F05F4B61D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8722E684-9933-4F4B-8F3C-0D7F05F4B61D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10947B81-7232-4F85-9F19-F73AA6252612}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10947B81-7232-4F85-9F19-F73AA6252612}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10947B81-7232-4F85-9F19-F73AA6252612}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10947B81-7232-4F85-9F19-F73AA6252612}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9DE587A6-30F1-4558-B711-D43D257558CC}
+	EndGlobalSection
+EndGlobal
