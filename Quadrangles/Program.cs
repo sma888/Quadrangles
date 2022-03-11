@@ -9,28 +9,13 @@ namespace Quadrangles
     {
         static void Main(string[] args)
         {
-            Calculation calculation = new Calculation();
-
-            Console.WriteLine("Выпуклый четырехугольнк:");
+            Console.WriteLine("Выпуклый прямоугольник: ");
             ConvexQuadrilateral convexQuadrilateral = new ConvexQuadrilateral();
             convexQuadrilateral.Print();
             Console.WriteLine();
 
-            Square square = new Square();
-            square.Print();
-            calculation.Storona(square.X, square.Y);
-            calculation.Diagonals(square.X, square.Y);
-            Console.WriteLine();
-
             Romb romb = new Romb();
             romb.Print();
-            Console.WriteLine();
-
-            
-            calculation.Diagonals(romb.X,romb.Y);
-            Console.WriteLine();
-
-            calculation.Storona(romb.X, romb.Y);
             Console.ReadKey();
         }
     }

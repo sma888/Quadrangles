@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QuadranglesLibrary.Method;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,8 @@ namespace QuadranglesLibrary.Child
 {
     public class Romb : ConvexQuadrilateral
     {
+        Calculation calculation = new Calculation();
+
         public Romb() : base()
         {
             X[1] = 1;

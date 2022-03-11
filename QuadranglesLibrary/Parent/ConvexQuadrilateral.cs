@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QuadranglesLibrary.Method;
+using System;
 
 namespace QuadranglesLibrary
 {
@@ -6,6 +7,8 @@ namespace QuadranglesLibrary
     {
         public double[] X = new double[10];
         public double[] Y = new double[10];
+
+        Calculation calculation = new Calculation();
 
         public ConvexQuadrilateral()
         {
@@ -17,6 +20,10 @@ namespace QuadranglesLibrary
             Y[3] = 2;
             X[4] = 10;
             Y[4] = 0;
+            calculation.Equals(X);
+            calculation.Equals(Y);
+            calculation.Diagonals(X, Y);
+            calculation.Storona(X, Y);
         }
 
         public ConvexQuadrilateral(double x, double y)
