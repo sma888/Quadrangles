@@ -30,7 +30,7 @@ namespace QuadranglesLibrary.Child
 
         public override string ToSring()
         {
-            return "Ромб:\n" + base.ToSring();
+            return base.ToSring();
         }
     }
 }

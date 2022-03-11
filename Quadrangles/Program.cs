@@ -9,11 +9,15 @@ namespace Quadrangles
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Выпуклый прямоугольник: ");
+            Console.WriteLine("Выпуклый 4-х углольник");
             ConvexQuadrilateral convexQuadrilateral = new ConvexQuadrilateral();
             convexQuadrilateral.Print();
-            Console.WriteLine();
 
+            Console.WriteLine("\nКвадрат:");
+            Square square = new Square();
+            square.Print();
+
+            Console.WriteLine("\n Ромб:");
             Romb romb = new Romb();
             romb.Print();
             Console.ReadKey();

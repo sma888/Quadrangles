@@ -21,7 +21,7 @@
 
         public override string ToSring()
         {
-            return "Квадрат:\n" + base.ToSring();
+            return base.ToSring();
         }
     }
 }
